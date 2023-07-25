@@ -209,6 +209,14 @@ svg {
 
 
 
+.logo-type {
+    margin-left: 40px;
+}
+
+
+
+
+
 
 
 
@@ -323,7 +331,9 @@ svg {
 
 
 
-
+.logo-lo1 {
+    margin-left: 25px;
+}
 
 
 
@@ -347,6 +357,7 @@ svg {
     height: 434px;
     position: absolute;
     top: 0px;
+    left: 200px;
 }
 
 .black_a {
@@ -355,6 +366,7 @@ svg {
     background-color: rgba(0, 0, 0, 0.828);
     z-index: 2;
     position: absolute;
+    left: 200px;
 }
 
 .knopka {
@@ -370,13 +382,13 @@ svg {
 
 .brd {
     width: 55px;
-    margin-left: 554px;
+    margin-left: 590px;
 }
 
 .text_w {
     text-align: center;
     padding-top: 35px;
-    margin-left: -73px;
+    margin-left: -0px;
 }
 
 
@@ -384,12 +396,13 @@ svg {
 .input {
     display: flex;
     margin-top: 135px;
-    margin-left: 250px;
+    margin-left: 320px;
     gap: 50px;
 }
 
 .btn {
     width: 165px;
+    cursor: pointer;
 }
 
 .text1 {
@@ -423,7 +436,7 @@ svg {
 
 .first-checkbox {
     padding-top: 50px;
-    margin-left: 455px;
+    margin-left: 490px;
 }
 
 .label {
@@ -522,6 +535,7 @@ svg {
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
+    cursor: pointer;
     box-shadow: 0px 5px 15px 0px #E3B873;
     transition: box-shadow 200ms linear;
 }
@@ -529,6 +543,7 @@ svg {
 
 .btn2_t {
     width: 250px;
+    cursor: pointer;
 }
 
 
@@ -595,7 +610,7 @@ svg {
 
 .content-e5 {
     position: relative;
-    height: 1000px;
+    height: 1600px;
     display: flex;
 }
 
@@ -629,7 +644,8 @@ svg {
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
-    line-height: 138.6%; /* 24.948px */
+    line-height: 138.6%;
+    /* 24.948px */
     z-index: 1;
 }
 
@@ -671,7 +687,8 @@ svg {
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
-    line-height: 143.22%; /* 25.78px */
+    line-height: 143.22%;
+    /* 25.78px */
     margin-top: 25px;
 }
 
@@ -692,7 +709,8 @@ svg {
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
-    line-height: 163.68%; /* 22.915px */
+    line-height: 163.68%;
+    /* 22.915px */
 }
 
 .input-e5::placeholder {
@@ -707,7 +725,8 @@ svg {
     font-size: 13px;
     font-style: normal;
     font-weight: 400;
-    line-height: 163.68%; /* 21.278px */
+    line-height: 163.68%;
+    /* 21.278px */
 }
 
 .subtitle-e5 {
@@ -727,3 +746,201 @@ svg {
     width: 213px;
     height: 51px;
 }
+
+.vidos {
+    position: absolute;
+    bottom: -20px;
+    width: 1000px;
+}
+
+
+.logo-txt {
+    display: flex;
+    color: #E3B873;
+    padding-top: 50px;
+}
+
+.txt {
+    margin-top: 20px;
+    color: #E3B873;
+    text-shadow: 0px 3px 10px 0px rgba(227, 184, 115, 0.15);
+    font-family: Nunito Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 143.22%;
+    /* 25.78px */
+}
+
+.white_content {
+    position: relative;
+}
+
+.block-e7 {
+    padding-top: 850px;
+    margin-left: -150px;
+}
+
+.img-e7 {
+    width: 1524px;
+    height: 875px;
+    position: absolute;
+}
+
+.block-black {
+    width: 1524px;
+    height: 875px;
+    background-color: #000000be;
+    position: absolute;
+    z-index: 1;
+}
+
+.block-bk1 {
+    color: white;
+    padding: 137px 99px;
+}
+
+.title-bk1 {
+    color: #E3B873;
+    font-family: Yeseva One;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 138.6%;
+    /* 37.422px */
+    text-transform: uppercase;
+}
+
+.list-item {
+    list-style: none;
+    margin-left: -40px;
+    width: 200px;
+}
+
+.list-bk1 {
+    margin-bottom: 30px;
+}
+
+.list-bk1:hover {
+    cursor: pointer;
+    color: #E3B873;
+    border-bottom: 1px solid #E3B873;
+}
+
+.l1 {
+    width: 120px;
+}
+
+.l2 {
+    width: 50px;
+}
+
+.l3 {
+    width: 65px;
+}
+
+.l4 {
+    width: 30px;
+}
+
+.l5 {
+    width: 83px;
+}
+
+.l6 {
+    width: 65px;
+}
+
+.l7 {
+    width: 90px;
+}
+
+.l8 {
+    width: 132px;
+}
+
+.l9 {
+    width: 142px;
+}
+
+.l10 {
+    width: 72px;
+}
+
+.l11 {
+    width: 79px;
+}
+
+.block-gallery {
+    position: absolute;
+    z-index: 1;
+    left: 65px;
+}
+
+.gy-1 {
+    position: absolute;
+}
+
+.g1 {
+    left: 587px;
+    top: -35px;
+    width: 354px;
+    height: 557.883px;
+}
+
+.g2 {
+    left: 984px;
+    top: -115px;
+}
+
+.g3 {
+    left: 984px;
+    top: 200px;
+}
+
+.g4 {
+    left: 587px;
+    top: 560px;
+}
+
+
+.white-a1 {
+    margin-top: 1000px
+}
+
+/* Title typography */
+
+
+
+/* Title typography */
+
+
+.logo-a1 {
+    margin-left: 540px;
+}
+
+.a1 {
+    color: #181818;
+    font-family: Yeseva One;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 138.6%; /* 27.72px */
+    text-transform: uppercase;  
+}
+
+.logo_a1 {
+    margin-left: 12px;
+}
+
+.subtitle-a1 {
+    color: #363636;
+    font-family: Nunito Sans;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    margin-left: -550px;
+    font-weight: 400;
+    line-height: 163.68%; /* 29.462px */
+}
+
