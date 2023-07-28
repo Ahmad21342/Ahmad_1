@@ -14,77 +14,6 @@ body {
     font-family: 'Nunito Sans';
 }
 
-.preloader {
-    /*фиксированное позиционирование*/
-    position: fixed;
-    /* координаты положения */
-    left: 0;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    /* фоновый цвет элемента */
-    background: #e0e0e0;
-    /* размещаем блок над всеми элементами на странице (это значение должно быть больше, чем у любого другого позиционированного элемента на странице) */
-    z-index: 1001;
-  }
-  
-  .preloader__row {
-    position: relative;
-    top: 50%;
-    left: 50%;
-    width: 70px;
-    height: 70px;
-    margin-top: -35px;
-    margin-left: -35px;
-    text-align: center;
-    animation: preloader-rotate 2s infinite linear;
-  }
-  
-  .preloader__item {
-    position: absolute;
-    display: inline-block;
-    top: 0;
-    background-color: #337ab7;
-    border-radius: 100%;
-    width: 35px;
-    height: 35px;
-    animation: preloader-bounce 2s infinite ease-in-out;
-  }
-  
-  .preloader__item:last-child {
-    top: auto;
-    bottom: 0;
-    animation-delay: -1s;
-  }
-  
-  @keyframes preloader-rotate {
-    100% {
-      transform: rotate(360deg);
-    }
-  }
-  
-  @keyframes preloader-bounce {
-  
-    0%,
-    100% {
-      transform: scale(0);
-    }
-  
-    50% {
-      transform: scale(1);
-    }
-  }
-  
-  .loaded_hiding .preloader {
-    transition: 0.3s opacity;
-    opacity: 0;
-  }
-  
-  .loaded .preloader {
-    display: none;
-  }
-  
-
 body * {
     box-sizing: border-box;
 }
@@ -171,11 +100,6 @@ main {
     bottom: 0;
     background-color: rgba(0, 0, 0, 0.518);
     z-index: -1;
-}
-
-.hero-container {
-    margin-left: 210px;
-    margin-top: -50px;
 }
 
 .title {
@@ -373,7 +297,7 @@ svg {
     font-weight: 400;
     gap: 60px;
     padding-top: 75px;
-    padding-left: 910px;
+    padding-left: 740px;
 }
 
 .list_b:hover {
@@ -399,7 +323,7 @@ svg {
 }
 
 .s1 {
-    margin-left: 80px;
+    margin-left: 0px;
 }
 
 .logo_2 {
@@ -414,7 +338,7 @@ svg {
 
 
 .logo-lo1 {
-    margin-left: 100px;
+    margin-left: 25px;
 }
 
 
@@ -430,7 +354,7 @@ svg {
 
 .woman {
     top: -250px;
-    left: 220px;
+    left: 150px;
     position: absolute;
 }
 
@@ -466,7 +390,7 @@ svg {
 .brd {
     width: 55px;
     margin-top: -25px;
-    margin-left: 270px;
+    margin-left: 205px;
 }
 
 .text_w {
@@ -477,11 +401,10 @@ svg {
 
 
 
-
 .input {
     display: flex;
     margin-top: 135px;
-    margin-left: 525px;
+    margin-left: 450px;
     gap: 50px;
 }
 
@@ -521,7 +444,7 @@ svg {
 
 .first-checkbox {
     padding-top: 50px;
-    margin-left: 730px;
+    margin-left: 620px;
 }
 
 .label {
@@ -577,7 +500,7 @@ svg {
     display: flex;
     margin-top: 50px;
     gap: 50px;
-    margin-left: 225px;
+    margin-left: 125px;
 }
 
 .image_w_1 {
@@ -693,15 +616,6 @@ svg {
 
 
 
-.logo-type {
-    margin-left: 285px;
-}
-
-
-
-
-
-
 
 .content-e5 {
     position: relative;
@@ -720,8 +634,6 @@ svg {
     padding-top: 400px;
     padding-left: 100px;
 }
-
-
 
 .cont-e5 {
     margin-bottom: 100px;
@@ -775,7 +687,7 @@ svg {
     background: #131313;
     box-shadow: 0px 30px 30px 0px rgba(0, 0, 0, 0.05);
     margin-top: 395px;
-    margin-left: 450px;
+    margin-left: 250px;
 }
 
 .title-e5 {
@@ -880,13 +792,13 @@ svg {
 }
 
 .img-e7 {
-    width: 1835px;
+    width: 1524px;
     height: 875px;
     position: absolute;
 }
 
 .block-black {
-    width: 1695px;
+    width: 1524px;
     height: 875px;
     background-color: #000000be;
     position: absolute;
@@ -1333,6 +1245,77 @@ svg {
     font-size: 0px;
 }
 
+.preloader {
+  /*фиксированное позиционирование*/
+  position: fixed;
+  /* координаты положения */
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  /* фоновый цвет элемента */
+  background: #e0e0e0;
+  /* размещаем блок над всеми элементами на странице (это значение должно быть больше, чем у любого другого позиционированного элемента на странице) */
+  z-index: 1001;
+}
+
+.preloader__row {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  width: 70px;
+  height: 70px;
+  margin-top: -35px;
+  margin-left: -35px;
+  text-align: center;
+  animation: preloader-rotate 2s infinite linear;
+}
+
+.preloader__item {
+  position: absolute;
+  display: inline-block;
+  top: 0;
+  background-color: #337ab7;
+  border-radius: 100%;
+  width: 35px;
+  height: 35px;
+  animation: preloader-bounce 2s infinite ease-in-out;
+}
+
+.preloader__item:last-child {
+  top: auto;
+  bottom: 0;
+  animation-delay: -1s;
+}
+
+@keyframes preloader-rotate {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes preloader-bounce {
+
+  0%,
+  100% {
+    transform: scale(0);
+  }
+
+  50% {
+    transform: scale(1);
+  }
+}
+
+.loaded_hiding .preloader {
+  transition: 0.3s opacity;
+  opacity: 0;
+}
+
+.loaded .preloader {
+  display: none;
+}
+
+
 
 
 
@@ -1494,17 +1477,17 @@ svg {
 
     .t5 {
         font-size: 22px;
-        padding-left: 0px;
+        padding-left: 86px;
         margin-top: -50px;
     }
 
     .logo_2 {
-        padding-left: 100px;
+        padding-left: 169px;
         padding-top: 10px;
     }
 
     .border {
-        left: 20px;
+        left: 130px;
     }
 
     .s1 {
@@ -1603,10 +1586,6 @@ svg {
     .logo-type {
         margin-left: 0px;
         margin-top: 0px;
-    }
-
-    .logo-lol1 {
-        margin-left: 15px;
     }
 
     .t6 {
